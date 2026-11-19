@@ -1,0 +1,8 @@
+payment_type,txn_code,txn_category,product,channel,is_cash,inherent_risk
+Cash Deposit,CSH-DEP,Cash,Deposit Account,Branch / ATM,true,High
+Cash Withdrawal,CSH-WDL,Cash,Deposit Account,Branch / ATM,true,High
+Cross-border,WIR-INT,Wire,International Wire,SWIFT,false,High
+Cheque,CHQ,Paper,Deposit Account,Cheque Clearing,false,Standard
+ACH,ACH,Electronic,Deposit Account,Electronic Batch,false,Standard
+Debit card,DC-POS,Card,Deposit Account,Card Network,false,Standard
+Credit card,CC-POS,Card,Credit Card,Card Network,false,Standard
