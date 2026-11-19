@@ -1,0 +1,18 @@
+laundering_type,primary_scenario,coverage_level,rationale
+Structuring,S1,Primary,"Many senders pay one receiver, sub-5k amounts"
+Smurfing,S2,Primary,"100% cash deposits, repeated by few accounts"
+Cash_Withdrawal,S5,Primary,"100% cash withdrawals, frequent small amounts"
+Deposit-Send,S3,Primary,"Cash deposited then sent out, pass-through"
+Gather-Scatter,S3,Primary,"Funds gathered then dispersed, pass-through"
+Behavioural_Change_2,S4,Primary,100% cross-border and foreign currency
+Behavioural_Change_1,S4,Partial,"65% cross-border, rest domestic"
+Fan_In,S1,Partial,"Many-to-one, but not concentrated below 5k"
+Layered_Fan_In,S1,Partial,Many-to-one through intermediary layers
+Fan_Out,S3,Partial,"One-to-many, detectable only if funds pass through"
+Layered_Fan_Out,S3,Partial,One-to-many through intermediary layers
+Scatter-Gather,S3,Partial,Dispersed then regathered across accounts
+Cycle,S3,Partial,"Funds return to origin, needs network view"
+Bipartite,S3,Partial,"Two groups transacting, needs network view"
+Stacked Bipartite,S3,Partial,"Layered bipartite, needs network view"
+Single_large,,Gap,One-off large payments overlap with normal activity
+Over-Invoicing,,Gap,"Trade-based, requires invoice or trade data"
